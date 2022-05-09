@@ -1,0 +1,29 @@
+{
+    "name": "aks-service/matrix",
+    "description": "A simple matrix wrapper for laravel.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AksService\\Matrix\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AksService\\Matrix\\MatrixServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Chearaa",
+            "email": "chearaa@googlemail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "laravel/framework": "^8.0"
+    }
+}
